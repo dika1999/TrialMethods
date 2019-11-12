@@ -1,0 +1,32 @@
+public class latihanmethods1 {
+
+    
+    static void doorprize(int totalbelanja) {
+
+    if (totalbelanja > 100000) {
+      System.out.println("Hore... kamu dapat doorprize tas");
+    } 
+
+    else if (totalbelanja > 75000) {
+      System.out.println("Hore... kamu dapat doorprize payung");
+    }
+
+    else if (totalbelanja > 50000){
+      System.out.println("Hore... kamu dapat doorprize sandal");
+    }
+
+    else if (totalbelanja > 25000){
+      System.out.println("Hore... kamu dapat doorprize piring cantik");
+    }
+
+    else {
+      System.out.println("Yahhh... kamu belum dapat doorprize");
+    }
+
+
+  }
+    public static void main(String[] args) {
+        doorprize(52000);
+    }
+    
+}
